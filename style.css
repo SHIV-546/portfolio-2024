@@ -1,0 +1,181 @@
+html{
+    background-color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+.home-container{
+    height: 100vh;
+    width:100%;
+    background-color: #0568A1;
+    text-align: center;
+}
+.home-text{
+    color: white;
+    text-align: right;
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+}
+.about-container{
+    height:100vh;
+    width: 100%;
+    background-color: white;
+}
+#uni-highlight{
+    color:#0568A1;
+}
+#pfp{
+    height: 300px;
+    width: 300px;
+    position: static;
+    border-radius: 150px;
+}
+h3{
+    color: #0568A1;
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.about-elements{
+    align-items: center;
+    position: relative;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+.about-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+.skill-title{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: 100px;
+}
+.skill-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.skill-elements{
+    background: white;
+    height: 500px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: #0568A1;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+}
+.skill-icon{
+    display: block;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    left: 150px;
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.card h4{
+    color: white;
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+}
+.card-text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    opacity: 75%;
+    font-size: 25px;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+}
+.contact-container{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.contact-elements{
+    position: relative;
+    top: 300px;
+}
+.contact-elements h3{
+    font-size: 50px;
+}
+.footer{
+    background-color: #0568A1;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    color: white
+}
+.footer div{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    color: white;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    opacity: 80%;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .skill-container{
+        text-align: left;
+        justify-items: center;
+        height: 300vh;
+    }
+    .skill-elements{
+        height: 300vh;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+        justify-content: space-between;
+    }
+    .skill-icon{
+        position: relative;
+        left: 30px;
+    }
+    .card{
+        width: 350px; 
+        text-align: left;
+    }
+    .card h4{
+        text-align: left;
+    }
+    .card-text{
+        text-align: left;
+    }
+    .home-text{
+        font-size: 80px;
+    }
+  }
